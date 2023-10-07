@@ -1,23 +1,29 @@
 # 智慧作业管理使用手册
 
-> 1. 环境要求：`PHP7.4` `MySQL5.7` `nginx1.6` `composer`
+> 1. 测试网站：
+>
+>    > 学生端访问：http://43.136.39.218:3001/www (默认班级编号：2023001 账号：2023001 密码：2023001)
+>    >
+>    > 教师端访问：http://43.136.39.218:3001/houtai (默认 账号：admin 密码：admin )
+>
+> 2. 环境要求：`PHP7.4` `MySQL5.7` `nginx1.6` `composer`
 >
 >    - 使用 phpstudy 等集成工具可一键部署 PHP、MySQL、nginx
 >
 >    - composer 安装教程：https://www.runoob.com/w3cnote/composer-install-and-usage.html
 >
-> 2. 执行下面命令，安装系统
+> 3. 执行下面命令，安装系统
 >
 >    ```
 >    #在任意目录执行克隆git仓库
 >    git clone https://github.com/xiaopacairq/works.git
->
+>    
 >    #在目录下下载资源包，出现vendor表示安装成功
 >    composer install
->
+>    
 >    #导入目录下works.sql文件到MySQL数据库中
 >    使用phpmyadmin或者Navicat导入即可
->
+>    
 >    #配置数据库文件config/database.php
 >      'connections'     => [
 >            'mysql' => [
@@ -32,10 +38,10 @@
 >          		....
 >            ],
 >        ]
->
+>    
 >    ```
 >
-> 3. 启动 Web 服务
+> 4. 启动 Web 服务
 >
 >    ```
 >    # 方案一，启动内置服务器
