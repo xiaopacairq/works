@@ -1,0 +1,53 @@
+/* 界面头部 */
+.head {
+  height: 280px;
+}
+
+.head-title {
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+/* 整体布局 */
+.layui-container {
+  margin-top: 100px;
+  text-align: center;
+  margin: auto 0;
+}
+
+/* 表单布局 */
+.form-item {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 15px;
+}
+
+.label {
+  width: 40px;
+  font-size: 20px;
+}
+
+.input-item {
+  width: 280px;
+}
+
+.captcha {
+  display: flex;
+  flex-flow: row nowrap;
+
+  min-width: 150px;
+  height: 38px;
+}
+
+.layui-btn {
+  width: 320px;
+}
+
+/* 图片大小 */
+.logo {
+  width: 100px;
+  height: 100px;
+}

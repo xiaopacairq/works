@@ -1,0 +1,5 @@
+LimitRequestBody 1024000000000
+Options FollowSymLinks MultiViews ExecCGI
+AllowOverride All
+Order allow,deny
+Allow from all
