@@ -2,9 +2,9 @@
 
 > 1. 测试网站：
 >
->    > 学生端访问：http://43.136.39.218:3001/www (默认班级编号：2023001 账号：2023001 密码：2023001)
+>    > 学生端访问：http://works.srqcode.com/www (默认班级编号：2023001 账号：2023001 密码：2023001)
 >    >
->    > 教师端访问：http://43.136.39.218:3001/houtai (默认 账号：admin 密码：admin )
+>    > 教师端访问：http://works.srqcode.com/houtai (默认 账号：admin 密码：admin )
 >
 > 2. 环境要求：`PHP7.4` `MySQL5.7` `nginx1.6` `composer`
 >
