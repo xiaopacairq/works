@@ -3,7 +3,7 @@
 namespace app\admin\controller;
 
 use think\facade\Db;
-use think\facade\request;
+use think\facade\Request;
 use think\facade\View;
 use file\File;
 
@@ -26,7 +26,7 @@ class Classed extends Base
 
         //使用模板
         View::engine()->layout('layout');
-        return View::fetch('Classed/index', $data);
+        return View::fetch('classed/index', $data);
     }
 
     public function save()
